@@ -167,44 +167,63 @@ pranaya2.txt
 
 Display hidden files in the current directory.
 Ls -a
+
 Change directory to the previous directory.
 Cd ..
+
 Create a directory with spaces in its name: My Projects.
 Mkdir "My Projects"
+
 Change into My Projects.
 Cd 'My Projects'
+
 Clear the terminal screen.
 clear
+
 Display the current user's username.
 who
+
 Display the current date and time.
 date
+
 Display the current user's home directory path.
  echo ~username
+ 
 List files sorted by name in reverse order.
 Ls -l | sort -r
+
 Change directory to the root of the filesystem.
 Cd /.
+
 List all mounted filesystems.
 Mount -l
+
 Find the size of a directory and its contents.
 Du -sh directoryname
+
 Create a file named test.txt with some text.
 Echo "hai" > filename
+
 Append text to test.txt.
 Echo "content" >> filename
+
 Remove a file named oldfile.txt.
  rm oldfile.txt
+ 
 Create a directory named my_folder.
  mkdir my_folder
+ 
 Create nested directories: parent/child.
  mkdir -p dir1/dir2
+ 
 Create multiple directories at once: dir1 dir2 dir3.
  mkdir dir1 dir2 dir3
+ 
 Create a directory with spaces in its name: "My Folder".
   mkdir "MY Folder"
+  
 Create a directory with specific permissions: mkdir -m 755 new_dir.
  mkdir -m 755 dirname
+ 
 Exit the terminal.
   exit
-<img width="1037" height="4723" alt="image" src="https://github.com/user-attachments/assets/566986ea-acbd-4ddb-9894-bb79aaffb957" />
