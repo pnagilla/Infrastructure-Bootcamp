@@ -420,4 +420,28 @@ q
 
 
 
+View your command history (history command).
+root@ubuntu-host ~/Pranaya ➜  history
+    1  history
+    2  clear
+    3  history
+    4  mkdir Pranaya
+    5  cd Pranaya/
+    6  vi Text.cpp
+    7  history
+
+Re-execute the last command (!!).
+Re-execute a specific command from history (!n, where n is the command number).
+root@ubuntu-host ~/Pranaya ➜  !4
+mkdir Pranaya
+
+Clear the command history (history -c).
+root@ubuntu-host ~/Pranaya ✖ history -c  
+
+root@ubuntu-host ~/Pranaya ➜  history
+    1  history
+
+
+
+
 
