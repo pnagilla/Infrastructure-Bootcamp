@@ -1,4 +1,5 @@
 1) What is an OSI model?
+
 The OSI model, or Open Systems Interconnection model, is a conceptual framework used to understand and standardize how different computer systems communicate over 
 a network. It divides network communication into seven distinct layers, each responsible for specific functions involved in the transfer of data. 
 This layered approach helps different hardware and software systems from diverse vendors interoperate smoothly.
@@ -84,7 +85,7 @@ Example: UDP port 53 for DNS queries, UDP ports 67 and 68 for DHCP.
 
 
 
-3) how a network communication happens between a browser and google.com web server?
+4) how a network communication happens between a browser and google.com web server?
 Network communication between a browser and a web server like google.com happens through a structured process called the HTTP request-response cycle over the
 Internet, involving several key steps:
 
